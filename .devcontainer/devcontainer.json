@@ -1,12 +1,6 @@
 {
 	"name": "Node.js & TypeScript",
 	"image": "mcr.microsoft.com/devcontainers/typescript-node:16-bullseye",
-	"features": {
-		"ghcr.io/devcontainers/features/docker-in-docker:1": {},
-		"ghcr.io/devcontainers/features/git:1": {},
-		"ghcr.io/guiyomh/features/vim:0": {}
-	},
-	"postCreateCommand": "npm -g install supabase --save-dev",
 	"customizations": {
 		"vscode": {
 			"extensions": [
